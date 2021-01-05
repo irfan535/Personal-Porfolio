@@ -1,0 +1,49 @@
+* {margin: 0
+padding 0
+font-family:century gothic;}
+
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 50px 0px;
+  font-size: 0.9em;
+  min-width: 800px;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: Indigo;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 6px 30px;
+}
+
+.content-table tbody tr {
+  border-bottom: 5px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 4px solid grey;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color:  DarkOrchid;
+}
+
+
+
